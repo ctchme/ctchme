@@ -1,12 +1,16 @@
 {
   "name": "ctchme",
-  "version": "0.0.1",
+  "version": "0.0.1-2",
   "dependencies": {
     "express": "2.5.11",
     "stylus": ">= 0.0.1",
     "jade": ">= 0.0.1"
   },
   "subdomain": "ctchme",
+  "domains": [
+    "www.ctch.me",
+    "ctch.me"
+  ],
   "scripts": {
     "start": "app.js"
   },
