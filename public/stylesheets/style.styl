@@ -1,5 +1,77 @@
-body
-  padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+/*CSS for Ctchme homepage*/
+/*Version: 0.1*/
+/*Authored: @bwhitham*/
+
+//styl variables
+ctchme-softyellow = #ddd390
+
+
+/*__________________________________________________________ universals*/
+
+*
+	margin 0
+	padding 0 
+	outline none
+	border none
+	list-style none
+
+.clear
+	clear both
+
+::-moz-selection
+	
+	color inherit
+	text-shadow none
+
+::selection
+	
+	color inherit
+	text-shadow none
+
+
+/*__________________________________________________________ typography*/
+
+html
+	font-size 100%
+	-webkit-text-size-adjust 100%
+	-ms-text-size-adjust 100%
+	font-family sans-serif
+
+p
+	font-size 1em
+
+h1, h2, h3, h4
+	font-size 2em
+
 a
-  color: #00B7FF
+	color nodeph-blue
+	text-decoration underline
+
+/*__________________________________________________________ structure*/
+
+html
+	width 100%
+	height 100%
+	background url('/images/ctchme-home-tile.jpg') repeat top left
+	overflow hidden
+
+body
+	background url('/images/ctchme-home-bg.jpg') no-repeat center center fixed
+	width 1920px
+	height 1200px
+	margin 0 auto 0 auto
+/*__________________________________________________________ media queries*/
+
+@media only screen and (max-width: 1440px) {}
+
+/*__________________________________________________________ small format (320x480) landscape only*/
+
+@media only screen and (max-width: 480px) {}
+
+/*__________________________________________________________ retina displays*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {}
+
+/*__________________________________________________________ printing adjustments*/
+
+@media print {}
